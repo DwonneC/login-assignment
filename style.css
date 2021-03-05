@@ -1,0 +1,67 @@
+
+html {
+   height: 100%;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100%;
+font-family: sans-serif;
+color: #fff;
+background: linear-gradient(to top, #424242 , #d3d3d0);
+}
+
+.container {
+  background:rgba(21, 23, 26, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+  width:450px;
+  display: flex;  
+  flex-direction: column;
+}
+
+.logo{
+  font-family: "lobster";  
+  font-size:20px;
+  text-align: center;
+  padding: 20px 20px 0;
+  margin:0;
+}
+
+.login-item {
+	padding:25px 25px 0;
+	margin: 20px 20px 0;	
+	border-radius: 3px;
+}
+
+.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+  width: 100%;
+}
+
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="submit"] {
+  border-radius: 0.50rem;
+  padding: 1rem;
+  color: #3A3F44;  
+}
+
+.form-login input[type="text"]:hover, .form-login input[type="password"]:hover {
+  background-color: #eeeeee;
+}
+.form-login input[type="submit"] {
+  background-color: #1c00bc;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-login input[type="submit"]:hover {
+  background-color: #197071;
+}
+.form-field {
+  display: flex;
+  margin-bottom: 2rem;
+}
